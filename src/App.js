@@ -1,11 +1,11 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './pages/Home';
-import BasicForm from './pages/BasicForm';
-import TicTacToe from './pages/TicTacToe';
-import BasicButton from './pages/BasicButton';
-import Timers from './pages/Timers';
+import Home from './components/Home';
+import BasicForm from './components/BasicForm';
+import TicTacToe from './components/TicTacToe';
+import BasicButton from './components/BasicButton';
+import Timers from './components/Timers';
 
 function App() {
   return (
